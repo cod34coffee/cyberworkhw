@@ -297,5 +297,7 @@ for the screen sizes 1200 and above */
         background-image: url(./AdobeStock_381571402.jpeg);
         background-position: right;
     }
-   
+   .cyberDescript{
+        font-size: large;
+   }
 }

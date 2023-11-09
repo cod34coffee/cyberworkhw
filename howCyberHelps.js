@@ -10,7 +10,6 @@
 
 // An example site that I looked at here = https://codesandbox.io/s/dynamic-javascript-cards-forked-uddcrr?file=/src/index.js
 
-<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
 
 const cyberArray = [
     //The goal is to get the items in this list to display their values in my HTML files
