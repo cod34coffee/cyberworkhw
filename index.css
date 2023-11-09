@@ -166,24 +166,43 @@ for the screen sizes 1200 and above */
     }
 
     .cyberHelps, .whyTitle{
-        left: 10%;
+       
         position: relative;
         top: 25px;
         
     }
 
-    .cyberDescript{
-       
-    }
   
+  
+}
+
+
+@media(min-width:800px)and (max-width: 1099.98px){
+    .iconAndTitle{
+        font-size: large;
+      
+    }
+}
+
+@media(min-width:758px)and (max-width: 799.98px){
+    .iconAndTitle{
+        font-size: medium;
+    }
 }
 
 /*This helps to make sure that the lottie picture, animation picture, doesn't show below 
 1200.98px and below. So only visible on the lg and above screens */
-@media(max-width:1032.98px){
+@media(min-width:758px ){
     .cyberDescript{
-       
+       font-size:15px;
+       left: 90px;
+       position: relative;
     }
+    .whyTitle{
+        position:relative;
+        left: 90px;
+    }
+    
 }
 
 
@@ -263,7 +282,6 @@ for the screen sizes 1200 and above */
 
 
    
-
     
 
 
