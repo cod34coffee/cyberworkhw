@@ -1,0 +1,301 @@
+/* The styling was done by doing the smaller screen size first, then the larger ones. */
+/* This style.css file was placed in the index.html heading. */
+
+/* This is the full body of the screen part, and also the part that does the changing color effect. */
+/* To find out more info on how to do the changing color background check out this site I went to.*/
+/* The site is listed here = https://www.w3schools.com/cssref/tryit.php?filename=trycss_animatable */
+
+
+.bodybackgroundColors{
+    background-color: rgb(244, 244, 244);
+    background-image: url(./AdobeStock_381571402.jpeg);
+    background-position: center;
+}
+
+
+
+/* This begins the body code of the box that contains the solution */
+.bodyShape{
+    position: relative;
+    height: 850px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    
+    background: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    border-radius: 30px;
+
+}
+
+/*This is for the blue section */
+.topMobileView{
+position: relative;
+/*The line below is my original background color of the blue box*/
+/*background: linear-gradient(180deg, #6743FF 0%, #312CEA 100%);*/
+background-color: blue;
+animation: colorMove2 5s infinite;
+border-radius: 30px 30px 30px 30px;
+height: 365px;
+
+}
+@keyframes colorMove2{
+    from{background-color: rgb(6, 6, 122);}
+    to{background-color: rgb(17, 17, 17)}
+ 
+}
+
+
+.innerBluePart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 23px;
+    position: absolute;
+    width: 254px;
+    height: 292px;
+    left: 0px;
+    top: 32px;
+}
+/*To style the "Hello Cybersecurity World" text*/
+.iconAndTitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 21px;
+    /* identical to box height, or 117% */
+    margin-bottom: 15px;
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: #CAC0FF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+/*This is for the inner darker blue section */
+.blueInnerCircle{
+    width: 144px;
+    height: 139px;
+    gap: 35px;
+    background-color: rgba(0, 0, 0, 0.055);
+    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 100px;
+    /* Inside auto layout */
+    display: block;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    justify-content: center;
+    padding-top:9px;
+}
+
+
+
+.bottomInnerBlueText{
+    order: 1;
+}
+
+
+
+
+
+
+
+/* This is where the white section of the box is */
+.whiteBottomPart, .whiteBottomPart2{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding: 0px;
+    width: 100%;
+    gap: 19px;
+    position: absolute;
+    height: 403px;
+    padding-left: 28px;
+    padding-right: 28px;
+    top: 379px;
+}
+
+
+
+
+
+
+
+.textlayoutPart{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 59px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+/*The continue button including the hover/focus action */
+
+
+
+
+/* This helps to make sure that the lottie picture shows and is styled
+for the screen sizes 1200 and above */
+@media(min-width:1200px){
+    .lottiePic{
+        display: block;
+        float: right;
+        position: relative;
+        left: 580px;
+        right: 50px;
+    }
+
+    .cyberHelps, .whyTitle{
+        left: 10%;
+        position: relative;
+        top: 25px;
+        
+    }
+
+    .cyberDescript{
+       
+    }
+  
+}
+
+/*This helps to make sure that the lottie picture, animation picture, doesn't show below 
+1200.98px and below. So only visible on the lg and above screens */
+@media(max-width:1032.98px){
+    .cyberDescript{
+       
+    }
+}
+
+
+/*This helps change the layout of everything after the screen size reaches 768px */
+@media(min-width:768px){
+    body{
+        padding: 9%;     
+        position: absolute;
+    }
+
+    .bodybackgroundColors{
+        background-color: rgb(244, 244, 244);
+        background-image: url(./AdobeStock_381571402.jpeg);
+        background-position: center;
+    }
+
+    .bodyShape{
+        position: absolute;
+        width: 80vw;
+        height: 428px;
+        background: #FFFFFF;
+        border-radius: 27px;
+    }
+
+
+
+    .topMobileView{
+        position: relative;
+        width: 100%;
+        height: 428px;
+
+        border-radius: 27px;
+    }
+
+    .blueInnerCircle{
+        width: 165px;
+        height: 162px;
+
+        background-color:  rgba(0, 0, 0, 0.055);
+        box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.15);
+        border-radius: 100px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .greatText{
+        font-size: 25px;
+
+    }
+
+    .summaryText{
+        display: none;
+    }
+
+    .summaryText2{
+        display: block;
+    }
+
+    .whiteBottomPart{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 12px;
+        right: 130px;
+        position: absolute;
+        width: 241px;
+        height: 354px;
+        top: 33px;
+
+    }
+
+   
+
+  
+
+
+   
+
+    
+
+
+
+ 
+}
+
+
+
+
+/* This helps to style some items while the screen is under the 767.98 size. */
+@media(max-width: 767.98px){
+    .cyberHelps{
+        margin-bottom: 15px;
+        height: 57px;
+      
+    }
+    .textlayoutPart{
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 56%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .bodybackgroundColors{
+        background-color: rgb(244, 244, 244);
+        background-image: url(./AdobeStock_381571402.jpeg);
+        background-position: right;
+    }
+   
+}
