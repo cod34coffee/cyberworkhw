@@ -19,24 +19,23 @@ const cyberArray = [
           id: 0,
           category: "Cyber Attacks",
           textColor: "black",
-          description: "Cybersecurity helps protect against hacker, insider threats, and malware.",
-          iconPic: 
+          description: "Cybersecurity helps protect against hacker, insider threats, and malware."
+          
         },
         {
           id: 1,
           category: "Business Continuity",
           textColor: "black",
-          description: "Organizations need cybersecurity to ensure the continuity of operations and prevent downtime. ",
-          icon: <iframe src="https://lottie.host/?file=f682ce7e-c971-4352-b1ea-2cc9a74323bc/drgGUW23rP.json"></iframe>
+          description: "Organizations need cybersecurity to ensure the continuity of operations and prevent downtime. "
+          
 
         },
         {
           id: 2,
           category: "Financial Security",
           textColor: "black",
-          description: "Cyberattacks can result in financial loss, and proper security can mitigate it.",
-          icon: <iframe src="https://lottie.host/?file=f682ce7e-c971-4352-b1ea-2cc9a74323bc/drgGUW23rP.json"></iframe>
-
+          description: "Cyberattacks can result in financial loss, and proper security can mitigate it."
+          
         },
         
   ];
@@ -52,7 +51,7 @@ const cyberArray = [
         `
         <div class="${theArrayDisplay.className} col-s-12 " style = "margin-bottom: 15px">
             <div class = "textlayoutPart col-s-12">
-                <span class = "cyberDescript" style = "color:${theArrayDisplay.textColor};">${theArrayDisplay.icon}<b>${theArrayDisplay.category}</b> <br> ${theArrayDisplay.description}</span>
+                <span class = "cyberDescript" style = "color:${theArrayDisplay.textColor};"><b>${theArrayDisplay.category}</b> <br> ${theArrayDisplay.description}</span>
                 
             </div>
         </div>
