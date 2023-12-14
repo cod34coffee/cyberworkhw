@@ -217,7 +217,7 @@ for the screen sizes 1200 and above */
     .bodyShape{
         position: absolute;
         width: 80vw;
-        height: 428px;
+        /*height: 428px;*/
         background: #FFFFFF;
         border-radius: 27px;
     }
@@ -311,6 +311,9 @@ for the screen sizes 1200 and above */
         background-position: right;
     }
    .cyberDescript{
+        font-size: large;
+   }
+   .iconAndTitle{
         font-size: large;
    }
 }
