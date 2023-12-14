@@ -318,7 +318,7 @@ for the screen sizes 1200 and above */
    }
    .whiteBottomPart{
     
-    height: auto;
+    height:fit-content;
    
 
 }
