@@ -1,6 +1,4 @@
 
-
-//This is the array that was received in the data.json file. I placed it in this index.js file.
 //This array is called "answersArray"
 // Info on arrays are below.
 // To learn more about the array and objects and properties check out the site below.

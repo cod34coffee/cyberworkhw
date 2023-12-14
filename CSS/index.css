@@ -149,12 +149,7 @@ height: 365px;
 
 
 
-/*The continue button including the hover/focus action */
-
-
-
-
-/* This helps to make sure that the lottie picture shows and is styled
+/* This helps to make sure that everything is styled
 for the screen sizes 1200 and above */
 @media(min-width:1200px){
     .lottiePic{
@@ -190,7 +185,7 @@ for the screen sizes 1200 and above */
     }
 }
 
-/*This helps to make sure that the lottie picture, animation picture, doesn't show below 
+/*This helps to make sure that the lottie picture and etc., doesn't show below 
 1200.98px and below. So only visible on the lg and above screens */
 @media(min-width:758px ){
     .cyberDescript{

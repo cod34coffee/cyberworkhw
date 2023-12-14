@@ -1,7 +1,5 @@
 
-
-//This is the array that was received in the data.json file. I placed it in this index.js file.
-//This array is called "answersArray"
+//This array is called "cyberArray"
 // Info on arrays are below.
 // To learn more about the array and objects and properties check out the site below.
 //To learn about arrays here = https://www.w3schools.com/js/js_arrays.asp
@@ -59,6 +57,6 @@ const cyberArray = [
   
   });
   
-  //This attaches it to the div "allResultsHereDiv" in the HTML file index.html
+  //This attaches it to the div "cyberHelps" in the HTML file index.html
   const cyberExplanation = document.querySelector(".cyberHelps");
   cyberExplanation.innerHTML = htmlCyberArray;
